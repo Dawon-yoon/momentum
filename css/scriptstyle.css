@@ -67,6 +67,10 @@ main {
 #login-form input {
   margin: 15px 0;
   background-color: rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  color: aquamarine;
+  font-size: 14px;
+  font-weight: 500;
 }
 input:focus {
   outline: none;
@@ -88,7 +92,10 @@ input::placeholder {
   line-height: 30px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   color: aquamarine;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 #greeting {
